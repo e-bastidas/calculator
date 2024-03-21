@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <img class="calculator-background" src="resources/calculator-background.png" alt="picture of a calculator">
+        <div class="display-container">
+            <p class="top-line"></p>
+            <p class="bottom-line"></p>
+            <p class="credits">Adibast Calculator<br> Model S01<br> v1.0</p>
+        </div>
+        <div class="buttons-container">
+            <div id="buttons">
+                <div class="outer-grid">
+                    <div class="center-grid">
+                        <div class="top-grid">
+                            <button class="all-clear-button resBtn" value="AC">AC</button>
+                            <button class="division-button opBtn" value="÷">÷</button>
+                            <button class="multiplication-button opBtn" value="x">x</button>
+                        </div>
+                        <div class="middle-grid">
+                            <button class="left-light-button btngl numBtn" value="7">7</button>
+                            <button class="center-right-light-button btngl numBtn" value="8">8</button>
+                            <button class="center-right-light-button btngl numBtn" value="9">9</button>
+                            <button class="left-light-button btngl numBtn" value="4">4</button>
+                            <button class="center-right-light-button btngl numBtn" value="5">5</button>
+                            <button class="center-right-light-button btngl numBtn" value="6">6</button>
+                            <button class="left-light-button btngl numBtn" value="1">1</button>
+                            <button class="center-right-light-button btngl numBtn" value="2">2</button>
+                            <button class="center-right-light-button btngl numBtn" value="3">3</button>
+                        </div>
+                    </div>
+                    <div class="right-grid">
+                        <button class="subtraction-button opBtn" value="-">-</button>
+                        <button class="summation-sign-button opBtn" value="+">+</button>
+                        <button class="calculate-button exeBtn" value="=">=</button>
+                    </div>
+                </div>
+                <div class="bottom-grid">
+                    <button class="zero-button btngl numBtn" value="0">0</button>
+                    <button class="decimal-point-button numBtn" value=".">.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
