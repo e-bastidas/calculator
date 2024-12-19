@@ -1,0 +1,14 @@
+Custom License for "Adbibast Basic Calculator"
+License
+You are not permitted to:
+
+Copy: No part of this project may be copied or reproduced in any form without the explicit permission of the author.
+
+Modify: You may not modify, alter, or create derivative works from the project in any way.
+
+Distribute: The project or any part of it may not be distributed, shared, or made available to third parties without permission from the author.
+
+Commercial Use: This project may not be used for commercial purposes without explicit permission from the author.
+
+Disclaimer
+This software is provided "as-is," without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.
